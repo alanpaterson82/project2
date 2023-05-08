@@ -1,15 +1,16 @@
 (function(){
-    // Functions
+    // functions
     function buildQuiz(){
-// variable to store the HTML output
 
-const output = [];
+        // variable to store the HTML output
+
+        const output = [];
 
 // for each question...
 myQuestions.forEach(
     (currentQuestion, questionNumber) => {
 
-        //variable to store the list of possible answers
+        // variable to store the list of possible answers
         const answers = [];
 
         // and for each available answer...
@@ -61,7 +62,7 @@ function showResults(){
             // add to the number of correct answers
             numCorrect++;
 
-            // color the answers green
+            //* color the answers green
             answerContainers[questionNumber].style.color = 'lightgreen';
     }
         // if answer is wrong or blank
@@ -104,7 +105,7 @@ function showPreviousSlide() {
     showSlide(currentSlide - 1);
 }
 
-//Variables
+// variables
 
 const quizContainer = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
@@ -157,20 +158,19 @@ const myQuestions = [
     },
 ];
 
-// Kick things off
+// start things off
 buildQuiz();
 
-// Pagination
+// from previous to next question
 const previousButton = document.getElementById("previous");
 const nextButton = document.getElementById("next");
 const slides = document.querySelectorAll(".slide");
 let currentSlide = 0;
 
-// Show the first slide
+// show the first slide
 showSlide(currentSlide);
 
-// Event listeners
-
+// event listeners
 submitButton.addEventListener('click', showResults);
 
 previousButton.addEventListener("click", showPreviousSlide);
