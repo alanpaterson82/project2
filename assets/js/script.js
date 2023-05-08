@@ -112,48 +112,48 @@ const submitButton = document.getElementById('submit');
 const myQuestions = [
     {
         question: "Who starred alongside Ben Affleck in Armageddon?",
-        answers: {
-            a: "Kate Winslet",
-            b: "Liv Tyler",
-            c: "Jennifer Lawrence"
+        answers:         {
+            A: "Kate Winslet",
+            B: "Liv Tyler",
+            C: "Jennifer Lawrence"
         },
-        correctAnswer: "b"
+        correctAnswer: "B"
     },
     {
         question: "How many Oscars has Meryl Streep won?",
         answers: {
-            a: "3",
-            b: "4",
-            c: "5",
+            A: "3",
+            B: "4",
+            C: "5",
         },
-        correctAnswer: "a"
+        correctAnswer: "A"
     },
     {   
         question: "What was Quentin Tarantino's first film?",
         answers: {
-            a: "Reservoir Dogs",
-            b: "Pulp Fiction",
-            c: "Jackie Brown",
+            A: "Reservoir Dogs",
+            B: "Pulp Fiction",
+            C: "Jackie Brown",
         },
-        correctAnswer: "a"
+        correctAnswer: "A"
     },
     {   
         question: "Which film won Best Picture at the 2023 Oscars?",
         answers: {
-            a: "Everything Everywhere All At Once",
-            b: "Tar",
-            c: "The Whale",
+            A: "Everything Everywhere All At Once",
+            B: "Tar",
+            C: "The Whale",
         },
-        correctAnswer: "a"
+        correctAnswer: "A"
     },
     {   
         question: "Who Directed the 2020 film Tenet?",
         answers: {
-            a: "Martin Scorcese",
-            b: "Steven Spielberg",
-            c: "Christopher Nolan",
+            A: "Martin Scorcese",
+            B: "Steven Spielberg",
+            C: "Christopher Nolan",
         },
-        correctAnswer: "c"
+        correctAnswer: "C"
     },
 ];
 
