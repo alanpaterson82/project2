@@ -72,7 +72,8 @@ function showResults(){
 resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
 }
 
-function showSLide(n) {
+function showSlide(n) {
+
     slides[currentSlide].classList.remove('active-slide');
     slides[n].classList.add('active-slide');
     currentSlide = n;
@@ -90,6 +91,14 @@ function showSLide(n) {
         nextButton.style.display = 'inline-block';
         submitButton.style.display = 'none';
     }
+}
+
+function showNextSlide() {
+    showSlide(currentSlide + 1);
+}
+
+function showPreviousSlide() {
+    showSlide(currentSlide - 1);
 }
 
 const quizContainer = document.getElementById("quiz");
@@ -149,11 +158,13 @@ buildQuiz();
 // Pagination
 const previousButton = document.getElementById("previous");
 const nextButton = document.getElementBtId("next");
-const slides = document.querySelectorAll("slide");
-let currentslide = 0;
+const slides = document.querySelectorAll(".slide");
+let currentSlide = 0;
 
 // Show the first slide
-showslide(currentSlide);
+showSlide(currentSlide);
 
 // on submit, show results
-submitButton.addEventListener('click', showResults);
+submitButton.addEventListener("click", showResults);
+previousButton.addEvenetListener("click", showPreviousSlide);
+nextButton.addEventListener("click", showNextSlide);
