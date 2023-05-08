@@ -1,4 +1,6 @@
-function buildQuiz(){
+(function(){
+    // Functions
+    function buildQuiz(){
 // variable to store the HTML output
 
 const output = [];
@@ -18,6 +20,7 @@ myQuestions.forEach(
                 `<label>
                 <input type="radio" name="question${questionNumber}" value="${letter}">
                 ${letter} :
+
                 ${currentQuestion.answers[letter]}
                 </label>`
             );
@@ -63,7 +66,7 @@ function showResults(){
     }
         // if answer is wrong or blank
     else{
-            // color answers red
+            // color the answers red
             answerContainers[questionNumber].style.color = 'red';
     }
 });
@@ -101,9 +104,11 @@ function showPreviousSlide() {
     showSlide(currentSlide - 1);
 }
 
-const quizContainer = document.getElementById("quiz");
-const resultsContainer = document.getElementById("results");
-const submitButton = document.getElementById("submit");
+//Variables
+
+const quizContainer = document.getElementById('quiz');
+const resultsContainer = document.getElementById('results');
+const submitButton = document.getElementById('submit');
 const myQuestions = [
     {
         question: "Who starred alongside Ben Affleck in Armageddon?",
@@ -157,14 +162,17 @@ buildQuiz();
 
 // Pagination
 const previousButton = document.getElementById("previous");
-const nextButton = document.getElementBtId("next");
+const nextButton = document.getElementById("next");
 const slides = document.querySelectorAll(".slide");
 let currentSlide = 0;
 
 // Show the first slide
 showSlide(currentSlide);
 
-// on submit, show results
-submitButton.addEventListener("click", showResults);
-previousButton.addEvenetListener("click", showPreviousSlide);
+// Event listeners
+
+submitButton.addEventListener('click', showResults);
+
+previousButton.addEventListener("click", showPreviousSlide);
 nextButton.addEventListener("click", showNextSlide);
+})();
