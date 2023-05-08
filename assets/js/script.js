@@ -82,6 +82,42 @@ const myQuestions = [
         },
         correctAnswer: "b"
     },
+    {
+        question: "How many Oscars has Meryl Streep won?",
+        answers: {
+            a: "3",
+            b: "4",
+            c: "5",
+        },
+        correctAnswer: "a"
+    },
+    {   
+        question: "What was Quentin Tarantino's first film?",
+        answers: {
+            a: "Reservoir Dogs",
+            b: "Pulp Fiction",
+            c: "Jackie Brown",
+        },
+        correctAnswer: "a"
+    },
+    {   
+        question: "Which film won Best Picture at the 2023 Oscars?",
+        answers: {
+            a: "Everything Everywhere All At Once",
+            b: "Tar",
+            c: "The Whale",
+        },
+        correctAnswer: "a"
+    },
+    {   
+        question: "Who Directed the 2020 film Tenet?",
+        answers: {
+            a: "Martin Scorcese",
+            b: "Steven Spielberg",
+            c: "Christopher Nolan",
+        },
+        correctAnswer: "c"
+    },
 ];
 
 // display quiz immediately
