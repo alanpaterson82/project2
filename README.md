@@ -52,3 +52,21 @@ Validator Testing
 
 ![Jigsaw Validator Result](assets/images/w3c-jigsaw-validator-result.jpg)
 
+- Lighthoues results - accessibility at 100%
+
+![Lighthouse Result](assets/images/lighthouse-result.jpg)
+
+# Deployment
+
+I used Github to deploy the site by completing the below
+
+- Clicking on the relevant repository from the GitHub homepage
+- Clicking 'settings'
+- From the dropdown, changing the branch from 'none' to 'main'
+- Clicking 'save'
+- When the page is refreshed the link is provided to be used for deployment
+
+## Credits
+
+- Fonts taken from Google Fonts
+- A significant portion of my code can be attributed to the structure of the quiz on sitepoint.com/simple-javascript-quiz/. My knowledge and understanding of this module was severely limited, and much of my submitted project was replicating an existing template and amending it as need for my content to be unique
