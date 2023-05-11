@@ -25,3 +25,30 @@ Each subsequent page then has another question, and a 'previous question' or 'ne
 
 The layout, fonts and colours used are very basic, which allows for easy navigation, future projects will be enhanced significantly as my confidence and knowledge grows.
 
+# Technologies Used
+
+- Javacsript
+- CSS
+- HTML
+
+# Issues
+
+1. The very basic nature of the website is due to my lack of ability to create both a visually pleasing and responsive project at this stage.
+2. I struggled with the Javascript language and often came up against issues where content disappeared (i.e this list of questions) and it took significant time and effort to resolve these issues, which generally was to do with grammar, spacing and layout errors with my code.
+3. I would have preferred to have ha d an option for a participant to add their username but after multiple attempts this would not work and could not be resolved.
+
+# Testing
+
+The site has been tested in multiple search engines (Safari, Google Chrome and Firefox)
+
+Validator Testing
+
+- I encountered 23 issues via JSHint, all of which were not resolveable as I did not understand the context
+- W3C HTML Validator Result - no errors
+
+![W3C HTML Validator Result](assets/images/w3c-html-validator-result.jpg) 
+
+- Jigsaw Validator Result - no errors
+
+![Jigsaw Validator Result](assets/images/w3c-jigsaw-validator-result.jpg)
+
