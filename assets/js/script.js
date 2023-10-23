@@ -14,7 +14,7 @@ myQuestions.forEach(
         const answers = [];
 
         // and for each available answer...
-        for(letter in currentQuestion.answers){
+        for(let letter in currentQuestion.answers){
 
             //... add an HTML radio button
             answers.push(
