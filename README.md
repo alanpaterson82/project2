@@ -36,6 +36,10 @@ The layout, fonts and colours used are very basic, which allows for easy navigat
 1. The very basic nature of the website is due to my lack of ability to create both a visually pleasing and responsive project at this stage of my learning
 2. I struggled with the Javascript language and often came up against issues where content disappeared (i.e the list of questions) and it took significant time and effort to resolve these issues, which generally was to do with grammar, spacing and layout errors within my code
 3. I would have preferred to have had an option for a participant to add their username, but after multiple attempts this would not work and could not be resolved
+4. There was 'overlapping' of the button and text on smaller devices, this has now been resolved through the use of media queries and amending font size
+5. The title has now been changed to 'The Movie Quiz App' as it was previously showing as 'Document'
+6. The initial font has been changed to Roboto for improved readability
+7. All broken links and images now fixed in the README file
 
 # Testing
 
