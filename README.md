@@ -1,6 +1,6 @@
 # The Movie Quiz App
 
-I have created a very basic quiz that poses five movie based questions, with a 'next question' option once an answer has been provided. Once all five questions have been answered you will see your score out of five. If any are incorrect, all of the answers for that question will be highlighted red when you scroll back through, and you will be able to amend your answer before submitting your attempt again. If correct, the answers will show as green.
+I have created a very basic quiz that poses five movie based questions, with a 'next question' option once an answer has been provided. Once all five questions have been answered you are shown your score out of five. If any are incorrect, all of the answers for that question will be highlighted red when you scroll back through, and you will be able to amend your answer before submitting your attempt again. If correct, the answers will show as green.
 
 A live demo of this project can be found at [Movie Quiz](https://8000-alanpaterson82-project2-jtcw0oskhz.us2.codeanyapp.com/)
 
@@ -15,7 +15,7 @@ A live demo of this project can be found at [Movie Quiz](https://8000-alanpaters
 
 # Features
 
-On the landing page there is the header of 'The Movie Quiz App' and the first question to be answered. It is self explanatory what is expected of the user ( to answer the question and click 'next question') until they get to the end of the quiz and can submit their answers.
+On the landing page there is the header of 'The Movie Quiz App' and the first question to be answered. It is self explanatory what is expected of the user (to answer the question and click 'next question') until they get to the end of the quiz and can submit their answers.
 
 ![Landing Page](assets/images/landing-page2.jpg)
 
@@ -43,7 +43,7 @@ The site has been tested in multiple search engines (Safari, Google Chrome and F
 
 Validator Testing
 
-- I encountered 23 issues via JSHint, all of which were unfortunately not resolveable as I did not understand their context, however, an undefined variable was also detected and amended realting to the use of the 'let' keyword.
+- I encountered 23 issues via JSHint, all of which were unfortunately not resolved as I did not understand their context, however, an undefined variable was also detected and amended relating to the use of the 'let' keyword.
 
 - W3C HTML Validator Result - no errors
 
@@ -70,4 +70,4 @@ I used Github to deploy the site by completing the below
 ## Credits
 
 - Fonts taken from Google Fonts
-- A significant portion of my code can be attributed to the structure of the quiz on sitepoint.com/simple-javascript-quiz/. My knowledge and understanding of this module was severely limited, and much of my submitted project was replicating an existing template and amending it as need for my content to be unique
+- A significant portion of my code can be attributed to the structure of the quiz on sitepoint.com/simple-javascript-quiz/. My knowledge and understanding of this module was severely limited, and much of my submitted project was replicating an existing template and amending it as needed for my content to be unique
