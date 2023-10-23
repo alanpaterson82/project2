@@ -69,7 +69,7 @@ button:hover {
     margin-top: 40px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     .quiz-container {
         height: 250px;
     }

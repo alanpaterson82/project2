@@ -47,7 +47,7 @@ Validator Testing
 
 - W3C HTML Validator Result - no errors
 
-![W3C HTML Validator Result](assets/images/w3c-html-validator-result.jpg) 
+![W3C HTML Validator Result](assets/images/w3c-html-validator-result2.jpg)
 
 - Jigsaw Validator Result - no errors
 
@@ -55,7 +55,7 @@ Validator Testing
 
 - Lighthouse results - accessibility at 100%
 
-![Lighthouse Result](assets/images/lighthouse-result.jpg)
+![Lighthouse Result](assets/images/lighthouse-result2.jpg)
 
 # Deployment
 
