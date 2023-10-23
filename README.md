@@ -1,8 +1,8 @@
 # The Movie Quiz App
 
-I have created a very basic quiz that poses five movie based questions, with a 'next question' option once an answer has been provided. Once all five questions have been answered you will see your score out of five. If any are incorrect, all of the answers for that question will be highlighted red when you scroll back through and you will be able to amend your answer before submitting your attempt again. If correct, the answers will show as green.
+I have created a very basic quiz that poses five movie based questions, with a 'next question' option once an answer has been provided. Once all five questions have been answered you will see your score out of five. If any are incorrect, all of the answers for that question will be highlighted red when you scroll back through, and you will be able to amend your answer before submitting your attempt again. If correct, the answers will show as green.
 
-A live demo of this project can be found at [Movie Quiz](https://8000-alanpaterson82-project2-052j5a4rw6.us2.codeanyapp.com/)
+A live demo of this project can be found at [Movie Quiz](https://8000-alanpaterson82-project2-jtcw0oskhz.us2.codeanyapp.com/)
 
 ![Am I Responsive](assets/images/am-i-responsive.jpg)
 
@@ -11,11 +11,11 @@ A live demo of this project can be found at [Movie Quiz](https://8000-alanpaters
 - To use Javascript to create a basic quiz platform
 - To make the design simple and user friendly
 - To create an enjoyable quiz for all users
-- To provide the user's final score and allow them the option to try the quiz gain
+- To provide the user's final score and allow them the option to try the quiz again
 
 # Features
 
-On the landing page there is the header of 'Movie Quiz' and the first question to be answered. It is self explanatory what is expected of the user ( to answer the question and click 'next question') until they get to the end of the quiz an can submit their answers.
+On the landing page there is the header of 'The Movie Quiz App' and the first question to be answered. It is self explanatory what is expected of the user ( to answer the question and click 'next question') until they get to the end of the quiz an can submit their answers.
 
 ![Landing Page](assets/images/landing-page.jpg)
 
@@ -43,7 +43,8 @@ The site has been tested in multiple search engines (Safari, Google Chrome and F
 
 Validator Testing
 
-- I encountered 23 issues via JSHint, all of which were not resolveable as I did not understand the context
+- I encountered 23 issues via JSHint, all of which were unfortunately not resolveable as I did not understand their context, however, an underfined variable was also detected and amended realting to the use of the 'let'keyword.
+
 - W3C HTML Validator Result - no errors
 
 ![W3C HTML Validator Result](assets/images/w3c-html-validator-result.jpg) 
