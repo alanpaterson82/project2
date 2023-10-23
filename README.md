@@ -59,7 +59,7 @@ Validator Testing
 
 - Lighthouse results - accessibility at 100%
 
-![Lighthouse Result](assets/images/lighthouse-result3.jpg)
+![Lighthouse Result](assets/images/lighthouse-result4.jpg)
 
 # Deployment
 
