@@ -15,9 +15,9 @@ A live demo of this project can be found at [Movie Quiz](https://8000-alanpaters
 
 # Features
 
-On the landing page there is the header of 'The Movie Quiz App' and the first question to be answered. It is self explanatory what is expected of the user ( to answer the question and click 'next question') until they get to the end of the quiz an can submit their answers.
+On the landing page there is the header of 'The Movie Quiz App' and the first question to be answered. It is self explanatory what is expected of the user ( to answer the question and click 'next question') until they get to the end of the quiz and can submit their answers.
 
-![Landing Page](assets/images/landing-page.jpg)
+![Landing Page](assets/images/landing-page2.jpg)
 
 Each subsequent page then has another question, and a 'previous question' or 'next question' option.
 
@@ -33,9 +33,9 @@ The layout, fonts and colours used are very basic, which allows for easy navigat
 
 # Issues
 
-1. The very basic nature of the website is due to my lack of ability to create both a visually pleasing and responsive project at this stage.
-2. I struggled with the Javascript language and often came up against issues where content disappeared (i.e this list of questions) and it took significant time and effort to resolve these issues, which generally was to do with grammar, spacing and layout errors with my code.
-3. I would have preferred to have ha d an option for a participant to add their username but after multiple attempts this would not work and could not be resolved.
+1. The very basic nature of the website is due to my lack of ability to create both a visually pleasing and responsive project at this stage of my learning
+2. I struggled with the Javascript language and often came up against issues where content disappeared (i.e the list of questions) and it took significant time and effort to resolve these issues, which generally was to do with grammar, spacing and layout errors within my code
+3. I would have preferred to have had an option for a participant to add their username, but after multiple attempts this would not work and could not be resolved
 
 # Testing
 
@@ -43,7 +43,7 @@ The site has been tested in multiple search engines (Safari, Google Chrome and F
 
 Validator Testing
 
-- I encountered 23 issues via JSHint, all of which were unfortunately not resolveable as I did not understand their context, however, an underfined variable was also detected and amended realting to the use of the 'let'keyword.
+- I encountered 23 issues via JSHint, all of which were unfortunately not resolveable as I did not understand their context, however, an undefined variable was also detected and amended realting to the use of the 'let' keyword.
 
 - W3C HTML Validator Result - no errors
 
@@ -53,7 +53,7 @@ Validator Testing
 
 ![Jigsaw Validator Result](assets/images/w3c-jigsaw-validator-result.jpg)
 
-- Lighthoues results - accessibility at 100%
+- Lighthouse results - accessibility at 100%
 
 ![Lighthouse Result](assets/images/lighthouse-result.jpg)
 
@@ -65,7 +65,7 @@ I used Github to deploy the site by completing the below
 - Clicking 'settings'
 - From the dropdown, changing the branch from 'none' to 'main'
 - Clicking 'save'
-- When the page is refreshed the link is provided to be used for deployment
+- When the page was refreshed the link was provided to be used for deployment
 
 ## Credits
 
