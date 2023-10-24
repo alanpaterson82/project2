@@ -2,7 +2,7 @@
 
 I have created a very basic quiz that poses five movie based questions, with a 'next question' option once an answer has been provided. Once all five questions have been answered you are shown your score out of five. If any are incorrect, all of the answers for that question will be highlighted red when you scroll back through, and you will be able to amend your answer before submitting your attempt again. If correct, the answers will show as green.
 
-A live demo of this project can be found at [Movie Quiz](https://8000-alanpaterson82-project2-ls25jiopm0.us2.codeanyapp.com/)
+A live demo of this project can be found at [Movie Quiz](https://alanpaterson82.github.io/project2/)
 
 ![Am I Responsive](assets/images/am-i-responsive.jpg)
 
