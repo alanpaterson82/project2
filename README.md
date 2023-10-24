@@ -47,7 +47,7 @@ The site has been tested in multiple search engines (Safari, Google Chrome and F
 
 Validator Testing
 
-- I encountered 23 issues via JSHint, all of which were unfortunately not resolved as I did not understand their context, however, an undefined variable was also detected and amended relating to the use of the 'let' keyword.
+- 23 issues were flagged via JSHint but I was unable to resolve them, however, an undefined variable was also detected and amended relating to the use of the 'let' keyword.
 
 - W3C HTML Validator Result - no errors
 
